@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+}
+.cont_main,.cont_main_alter{
+    width: 100%;
+    height: 50vh;
+    padding: 3%;
+}
+.cont_main_inf{
+    background-image: url(./portada.jpeg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px;
+    display: flex;
+}
+.etiqueta{
+    width: 13%;
+    height: 50vh;
+    z-index: 99;
+    margin-top: 3%;
+    display: flex;
+    position: absolute;
+}
+.etiqueta_inf{
+    width: 100%;
+    background-color: #7c67e9;
+    height: 30vh;
+    align-self: center;
+    border-radius: 0px 15px 15px 0px;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.etiqueta_inf_main1{
+    border-radius: 0px 15px 15px 15px;
+    background-color: #303386;
+}
+.etiqueta_inf_main2{
+    border-radius: 0px 0px 15px 0px;
+    background-color: #7c67e9;
+}
+.etiqueta_inf_main1,.etiqueta_inf_main2{
+    width: 100%;
+    height: 15vh;
+    margin: 0;
+}
+.cont_inf_main_alt3a{
+    width: 30%;
+}
+/* Divisor inferior 
+    PARTE 1*/
+
+.cont_inf{
+    width: 25%;
+    padding: 3% 1%;
+    display: block;
+}
+.cont_main_alter{
+    display: flex;
+}
+.cont_inf_main{
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 2%;
+    overflow: hidden;
+    display: flex;
+}
+.cont_inf_main_inf1,.cont_inf_main_inf2{
+    padding: 2% 3%;
+    display: flex;
+}
+.cont_inf_main_inf1{
+    width: 60%;
+    align-items: center;
+}
+.cont_inf_main_inf2{
+    background-color: #7c67e9;
+    width: 100%;
+    display: flex;
+}
+.temp_siguiente_min, .temp_siguiente_max{
+    width: 50%; 
+}
+.cont_inf_main_inf1_1{
+    width: 35%;
+}
+.cont_inf_main_inf1_1{
+    display: block;
+}
+.cont_inf_main_inf1_2{
+    width: 75%;
+    text-align: center;
+}
+/* Divisor inferior 
+    PARTE 2*/
+.imag_int_mapa{
+    background-image: url(./portada.jpeg);
+    height: 40vh;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px;
+    display: flex;
+    padding-top: 5%;
+}
+.imag_int_mapa>i{
+    color: white;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+.imag_int_mapa>p{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+/* Divisor inferior 
+    PARTE 3*/
+.imag_int_mapa2{
+    width: 100%;
+    height: 40vh;
+    display: block;
+}
+.imag_int_mapa2_1{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(./portada.jpeg);
+    align-items: center;
+}
+.imag_int_mapa2_2{
+    display: flex;
+    margin-top: 5%;
+    border-radius: 20px;
+    height: 30vh;
+    background-image: url(./portada.jpeg);
+    padding-top: 5%;
+}
+.imag_int_mapa2_1>i,.imag_int_mapa2_2>i {
+    color: white;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+.imag_int_mapa2_1>p,.imag_int_mapa2_2>p{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+.ciudad_bogota{
+    width: 100%;
+    overflow: hidden;
+    align-self: center;
+    font-size: 30px;
+    padding-left: 15%;
+    color: #7c67ec;
+    display: inline-flex;
+}
+.ciudad_bogota>i{
+    padding-right: 3%;
+    color: #7c67ec;
+}
+.test{
+    color: #7c67ec;
+    font-weight: 900;
+}
+/* Divisor inferior 
+    PARTE 4*/
+.cont_inf_main_inf3_1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15%;
+}
+.cont_inf_main_inf3_a{
+    width: 20%;
+}
+.cont_inf_main_inf3_b{
+    width: 60%;
+}
+.modi1{
+    border-radius: 20px;
+    background-color: #dde7f6;
+}
+.cont_inf_main_max{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.modi2{
+    transform: translateY(-40%);
+    background-color: white;
+    border-radius: 20px;
+    width: 20%;
+    margin-right: 2%;
+}
+@media screen and (max-width:415px){
+    .cont_main_alter{
+        display: block;
+    }
+    .modi2{
+        margin-top: 56%;
+        transform: translateY(-40%);
+        width: 100%;
+    }
+    .cont_inf{
+        width: 100%;
+    }
+    .ciudad_bogota{
+        padding-left: 30%;
+    }
+    .etiqueta {
+        width: 25%;
+    }
+    .test{
+        font-size: 43px;
+    }
+    .cont_inf_main_max{
+        margin-bottom: 12%;
+    }
+}
